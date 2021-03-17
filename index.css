@@ -1,29 +1,146 @@
+
+
 .top_page{
-   background-image: url("assets/backgrounds/landing.jpg"); 
-}
+    background-image: url("./assets/backgrounds/landing.jpg"); 
+ }
+ 
+ #image{
+     text-align: center;
+     
+ }
+ 
+ .paragraph1{
+     text-align: center;
+ }
+ .pa2{
+     text-align: center;
+ }
+ .second{
+     background-color: rgb(235, 227, 235);
+     width: 25%;
+     text-align: center;
+     height: 50px;
+     margin-top: -15px;
 
-#image{
-    text-align: center;
     
-}
-
-.paragraph1{
-    text-align: center;
-}
-.pa2{
-    text-align: center;
-}
-.second{
-    background-color: rgb(235, 227, 235);
+ }
+ .Third{
+    background-color: orangered;
     width: 25%;
     text-align: center;
     height: 50px;
-   
+    
+ 
+ }
+ .Fourth{
+     background-image: url("./assets/foodtop/breakfast.jpg");
+     /*margin: 25%;*/
+     text-align: center;
+     height: 50px;
+     width: 25%;
+     height: 100px;
+     text-align: center;
+     width: 25%;
+     margin-top: -51px;
+     
+ }
+ .fifth{
+     background-image: url("./assets/foodtop/lunch.jpg");
+     /*margin: 25%;*/
+     text-align: center;
+     width: 25%;
+     height: 100px;
+     margin-top: -51px;
+     
+     
+ }
+ .sixth{
+     background-image: url("./assets/foodtop/dinner.jpg");
+     height: 100px;
+     text-align: center;
+     width: 25%;
+     margin-top: -51px;
+     
+     
+ }
+main{
+    display: flex;
+    flex-direction: row;
 }
-.Third{
-   background-color: orangered;
-   width: 25%;
-   text-align: center;
-   height: 50px;
+
+div p {
+    /*color: white;*/
+}
+#food2{
+    
+}
+#food3{
+    
+    
+    
+}
+#border{
+    
+    padding: 1px;
+    border: 5px solid rgb(253, 253, 253);
+    
+    
+}
+
+
+
+#float{
+   display: flex;
+   
+   
+ 
 
 }
+.my-first{
+    display: flex;
+}
+#drinks{
+    float: right;
+  }
+  a{#fast-food{
+    float: left;
+    flex-direction: column;
+    display: flex;
+  }
+  #fastnav{
+    border: 2px solid white;
+    margin: 60px 70px;
+    background-color: white;
+  }
+  #nav>ul>li{
+    display: inline-block;
+    color: black;
+  }
+
+  #fastfoods{
+    border: 1px solid white;
+    display: inline-block;
+    size: 30px;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./assets/backgrounds/foodsBg.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 400px;
+    width: 100%;
+  }
+
+  #fastnav{
+    border: 2px solid white;
+    margin: 60px 70px;
+    background-color: white;
+  }
+  #nav>ul>li{
+    display: inline-block;
+    color: black;
+  }
+  #names{
+    display: inline;
+    color: #F15A29;
+    text-align:inherit
+  }
