@@ -1,110 +1,29 @@
-.main {
-    
-    background-image: url(/assets/backgrounds/landing.jpg);
-    
-    
- }
+.top_page{
+   background-image: url("assets/backgrounds/landing.jpg"); 
+}
 
- .image{
-
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
- }
-
- .main>p{
-     text-align: center;
- }
-
- #color1{
-     background-color:rgba(194, 187, 187, 0.925);
-     height: 50px;
-     width: 25%;
-     margin-top: -15.6px;
-     text-align: center;
- }
- #color2{
-    background-color:#f51616;
-    height: 50px;
-    width: 25%;
-    margin-top: -17.9px;
+#image{
     text-align: center;
-
- }
-#color1>p{
-    padding: 18px;
-}
-#color2>p{
-    padding: 18px;
+    
 }
 
+.paragraph1{
+    text-align: center;
+}
+.pa2{
+    text-align: center;
+}
 .second{
-    background-image: url(/assets/foodtop/breakfast.jpg);
-    height: 100px;
+    background-color: rgb(235, 227, 235);
     width: 25%;
-    margin-top: -115px;
-    margin-right: 250px;
-    margin-left: auto;
-    display: block;
-    
-    
+    text-align: center;
+    height: 50px;
+   
 }
+.Third{
+   background-color: orangered;
+   width: 25%;
+   text-align: center;
+   height: 50px;
 
-body{
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 10px;
-}
-
-
-.third{
-    background-image: url(/assets/foodtop/lunch.jpg);
-    height: 100px;
-    width: 25%;
-    margin-top: -116px;
-    margin-right: 125px;
-    margin-left: auto;
-    display: block;
-}
-
-.fourth{
-    background-image: url(/assets/foodtop/dinner.jpg);
-    height: 100px;
-    width: 25%;
-    margin-top: -116px;
-    margin-right: 0;
-    margin-left: auto;
-    display: block;
-}
-
-.second>p{
-    padding: 30px;
-}
-.third>p{
-    padding: 30px;
-}
-
-.fourth>p{
-    padding: 30px;
-}
-
-.food{
-    background-image: url(/assets/fastFood1.jpg);
-    height: 100px;
-    width: 50%;
-    display: block;
-    margin-top: 30px;
-}
-
-.food2{
-    background-image: url(/assets/fastFood2.jpg);
-    height: 100px;
-    width: 50%;
-    display: block;
-    
-}
-.container{
-    text-align: left;
 }
